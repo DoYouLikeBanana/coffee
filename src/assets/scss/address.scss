@@ -1,0 +1,35 @@
+.my-address {
+    /deep/ .van-nav-bar .van-icon {
+        color: tomato;
+    }
+
+    /deep/ .van-nav-bar__text {
+        color: tomato;
+    }
+
+    /deep/ .van-tag--danger {
+        background-color: tomato;
+    }
+
+    /deep/ .van-address-item .van-radio__icon--checked .van-icon {
+        background-color: tomato;
+        border-color: tomato;
+    }
+
+    /deep/ .van-address-list {
+        padding: 0;
+    }
+
+    /deep/ .van-address-item {
+        border-bottom: 1px solid #e8e8e8;
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+
+    /deep/ .van-button--danger {
+        background-color: tomato;
+        border-color: tomato;
+    }
+}
