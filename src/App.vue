@@ -37,3 +37,11 @@ body {
   text-overflow: ellipsis;
 }
 </style>
+<script>
+window.onblur = function() {
+    document.title = "(●—●)别离开呀！";
+};
+window.onfocus = function() {
+    document.title = "o(*￣▽￣*)ブ欢迎回来";
+}
+</script>
